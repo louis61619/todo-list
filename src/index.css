@@ -1,0 +1,74 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 16px;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 4px 12px;
+}
+
+.list-item {
+  padding: 16px 0;
+  border-top: 1px solid gray;
+  display: flex;
+}
+
+.list-item > .item-content {
+  flex: 1;
+}
+
+li::marker {
+  font-size: 0;
+}
+
+.list {
+  padding: 0;
+}
+
+.title {
+  font-size: 20px;
+  padding-bottom: 16px;
+}
+
+.dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(87, 87, 87, 0.815);
+}
+
+.dialog-content {
+  max-width: 400px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 20%;
+  padding: 36px;
+}
+
+.input {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.label {
+  min-width: 100px;
+}
