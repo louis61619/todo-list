@@ -20,7 +20,6 @@ export class App extends PureComponent {
 
   handleNew() {
     this.setState({
-      ...this.state,
       isShow: true,
     })
   }
@@ -85,7 +84,7 @@ export class App extends PureComponent {
         </ul>
         <Dialog
           isShow={this.state.isShow}
-          handleClose={() => this.setState({ ...this.state, isShow: false, modifyIndex: null })}
+          handleClose={() => this.setState({ isShow: false, modifyIndex: null })}
           handleCheck={(item) => this.handleCheck(item)}
           modifyIndex={this.state.modifyIndex}
           list={this.state.list}

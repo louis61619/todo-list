@@ -47,9 +47,7 @@ export class Dialog extends PureComponent {
       index: this.props.modifyIndex,
     })
 
-    setTimeout(() => {
-      this.handleClose()
-    })
+    this.handleClose()
   }
 
   render() {
